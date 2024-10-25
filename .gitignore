@@ -1,0 +1,33 @@
+echo "
+# Gradle-related files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# IntelliJ IDEA / VSCode config files
+.idea/
+.vscode/
+
+# Compiled class files
+*.class
+
+# OS and user-specific files
+*.log
+*.lock
+.DS_Store
+Thumbs.db
+
+# Temporary resources (if automatically generated)
+build/resources/
+build/tmp/
+
+# JAR files (if auto-generated)
+*.jar
+*.war
+*.ear
+
+# Gradle log and temporary files
+*.bin
+" >> .gitignore
+
